@@ -10,6 +10,25 @@
 
     <link rel="stylesheet" href="./static/css/index.css">
 
+    <!-- *********************TEMPLATE************************* -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Stylesheet
+        ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <!-- *********************TEMPLATE************************* -->
+
 </head>
 <body>
     <!-- ***********NAVBAR*********** -->
@@ -18,6 +37,9 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/olivia-ea/">Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/olivia-ea">Github</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="https://drive.google.com/file/d/1TWf9igOcxZWj6gvvLul2hwtMjbqundfu/view">Resume</a>
@@ -46,70 +68,121 @@
     <!-- ***********NAVBAR*********** -->
 
     <div id="about-section">
-        <div id="headshot"><img src="./static/images/olivia.jpg" height="150" width="115"></div>
-        <a id="about"><h2>About Me:</h2></a>
-
-        Software engineer with a focus in Python and Javascript. Looking for a position that uses data driven technologies to make meaningful applications.
-
-        <br>
-        
-        <h4>Contact Details:</h4>
-
-        Email: ea.olivia1@gmail.com
-
+        <div class="container">
+            <div class="section-title text-center center">
+                <a id="about"><h2>About Me</h2></a>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center"><img src="./static/images/olivia.png" height="250" width="250">
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="about-text">
+                        <p>Software engineer with a focus in Python and Javascript. Looking for a position that uses data driven technologies to make meaningful applications.
+                        </p>
+                        <p>
+                        <h4>Contact Details:</h4>
+                        </p>
+                        <p>
+                        Email: ea.olivia1@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   
 
     <br>
 
     <div id="tech-stack-section">
-        <a id="tech-stack"><h2>Tech Stack:</h2></a>
-        <ul>
-            <li> 
-                Languages: Python, Javascript (AJAX, JSON), Java, HTML, CSS, SQL
-            </li>
-            <li>
-                Frameworks/Libraries: Flask, jQuery, Bootstrap, Jinja2
-            </li>
-            <li>
-                Database/Industry Tools: PostgreSQL, SQLAlchemy, Git, Github, Command Line
-            </li>
-            <li>
-                OS: Linux, MacOS
-            </li>
-        </ul>
+        <div class="container">
+            <div class="section-title text-center center">
+                <a id="tech-stack"><h2>Tech Stack</h2></a>
+                    <ul>
+                        <li> 
+                            Languages: Python, Javascript (AJAX, JSON), Java, HTML, CSS, SQL
+                        </li>
+                        <li>
+                            Frameworks/Libraries: Flask, jQuery, Bootstrap, Jinja2
+                        </li>
+                        <li>
+                            Database/Industry Tools: PostgreSQL, SQLAlchemy, Git, Github, Command Line
+                        </li>
+                        <li>
+                            OS: Linux, MacOS
+                        </li>
+                    </ul>
+            </div>
+        </div>
     </div>
 
     <br>
 
     <div id="projects-section">
-        <a id="projects"><h2>Projects:</h2></a>
-        SongMuse
+        <div class="container">
+            <div class="section-title text-center center">
+                <a id="projects"><h2>Projects</h2></a>
+                    <p>SongMuse</p>
+            </div>
+        </div>
     </div>
 
     <br>
 
     <div id="prof-exp-section">
-        <a id="prof-exp"><h2>Professional Experience:</h2></a>
+        <div class="container">
+            <div class="section-title text-center center">
+                <a id="prof-exp"><h2>Professional Experience</h2></a>
+
+                    <p>
+                    Apple
+                    Technical Expert, Genius Bar | Palo Alto, CA | 7/2017 - 2/2019
+                    • Utilized internal Apple applications Concierge and MobileGenius to reserve and bookkeep appointments as well as
+                    run various diagnostics and allocate service parts.
+                    • Thorough knowledge of Apple device hardware/software to accurately troubleshoot and provide solutions to fit
+                    customer’s needs. Averaged 22 appointments per day.
+                    • Educated customers about affected device to optimize user experience and device performance.
+                    </p>
+                    <p>
+                    Silver Creek Fitness and Physical Therapy
+                    Physical Therapist Aide | Newark, CA | 9/2015 - 9/2016
+                    • Collaborated with team of physical therapists in an out-patient facility for lower dependency patients.
+                    • Analyzed patient charts to demonstrate proper exercise technique and use of equipment to conduct treatment
+                    regimes.
+                    </p>
+                    <p>
+                    Mad Science of the Bay Area
+                    Instructor | Fremont, CA | 2/2013 - 8/2015
+                    • Wrote and executed lesson plans for after-school programs, informational workshops and science camps on topics
+                    including chemistry, physics, biology and forensics.
+                    • Managed classroom sizes as large as 30 children between the ages of 4-10.
+                    • Implemented lab safety and proper use of equipment while supervising experiments such as constructing a functional
+                    rocket.
+                    </p>
+            </div>
+        </div>
     </div>
 
     <br>
 
     <div id="education-section">
-        <a id="education"><h2>Education:</h2></a>
-            <ul>
-            <li> 
-                Hackbright Academy (January 2019-March 2019)
-            </li>
-            <li>
-                Mission College (January 2017-June 2018)
-            </li>
-            <li>
-                University of California, Irvine (September 2013-June 2015)
-            </li>
-
-        </ul>
-        
+        <div class="container">
+            <div class="section-title text-center center">
+                <a id="education"><h2>Education</h2></a>
+                    <ul>
+                        <li> 
+                            Hackbright Academy 
+                            <br>
+                            Computer Software Engineering • San Francisco, CA • January 2019 - March 2019
+                        </li>
+                        <li>
+                            University of California, Irvine 
+                            <br>
+                            Bachelor of Arts (BA), Psychology • Irvine, CA • September 2013-June 2015
+                        </li>
+                    </ul>
+            </div>
+        </div>
     </div>
 
 
