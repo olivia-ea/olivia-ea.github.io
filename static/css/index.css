@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 70px;
   margin: 0;
   font-family: 'Open Sans',"Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 15px;
@@ -63,6 +63,7 @@ h2 {
     font-weight: 400;
     font-size: 30px;
 }
+
 h3, h4 {
     color: #222;
     font-size: 26px;
@@ -96,10 +97,9 @@ ul, ol {
   border: 1px solid #e7e7e7;
   position: fixed;
   z-index: 1;
-/*  position: sticky;
-*/  
   top: 0; 
   width: 100%; 
+
 }
 
 /* Links inside the navbar */
@@ -112,7 +112,93 @@ ul, ol {
   text-decoration: none;
 }
 
-/* Main content */
+
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 0px;
 }
+
+#add-info {
+    margin-top: 100px;
+}
+
+.w3-container, .w3-panel {
+    padding-top: 0.01em;
+    padding-right: 50px;
+    padding-bottom: 0.01em;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+.w3-light-grey {
+    border-radius: 3px;
+    margin-bottom: 40px;
+    height: 45px
+}
+
+.w3-grey {
+    border-radius: 3px;
+    margin-bottom: 40px;
+    height: 45px
+}
+
+.w3-bar-item {
+    font: 15px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+#python {
+
+
+}
+/*.bars {
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+.bars .skills {
+    margin-top: 36px;
+    list-style: none;
+}
+
+.bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
+}
+
+.bars li em {
+    font: 20px 'opensans-bold', sans-serif;
+    z-index: 1;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.percentage90 {
+    width: 90%;
+    -moz-animation: percentage90 2s ease;
+    -webkit-animation: percentage90 2s ease;
+}
+
+.bar-expand {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    margin: 20px;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+}*/
+
