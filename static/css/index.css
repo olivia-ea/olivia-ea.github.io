@@ -56,7 +56,7 @@ a:hover {
 
 
 h2 {
-    margin: 20px 0;
+    margin: 20px;
     color: #555;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -118,11 +118,11 @@ ul, ol {
 }
 
 #add-info {
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .w3-container, .w3-panel {
-    padding-top: 0.01em;
+    padding-top: 0.50em;
     padding-right: 50px;
     padding-bottom: 0.01em;
     padding-left: 0px;
@@ -133,9 +133,16 @@ ul, ol {
     border-radius: 3px;
     margin-bottom: 40px;
     height: 45px
-}
+} 
 
-.w3-grey {
+#last-bar {
+    border-radius: 3px;
+    margin-bottom: 0px;
+    height: 45px
+}    
+
+
+.w3-black {
     border-radius: 3px;
     margin-bottom: 40px;
     height: 45px
@@ -143,62 +150,11 @@ ul, ol {
 
 .w3-bar-item {
     font: 15px 'opensans-bold', sans-serif;
+    font-weight: bold;
+    color: white;
     text-transform: uppercase;
     margin-top: 7px;
 }
 
-#python {
 
-
-}
-/*.bars {
-    width: 95%;
-    float: left;
-    padding: 0;
-    text-align: left;
-}
-.bars .skills {
-    margin-top: 36px;
-    list-style: none;
-}
-
-.bars li {
-    position: relative;
-    margin-bottom: 60px;
-    background: #ccc;
-    height: 42px;
-    border-radius: 3px;
-}
-
-.bars li em {
-    font: 20px 'opensans-bold', sans-serif;
-    z-index: 1;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: normal;
-    position: relative;
-    top: 10px;
-    left: 10px;
-}
-
-.percentage90 {
-    width: 90%;
-    -moz-animation: percentage90 2s ease;
-    -webkit-animation: percentage90 2s ease;
-}
-
-.bar-expand {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top: 0;
-    margin: 20px;
-    padding-right: 24px;
-    background: #313131;
-    display: inline-block;
-    height: 42px;
-    line-height: 42px;
-    border-radius: 3px 0 0 3px;
-}*/
 
