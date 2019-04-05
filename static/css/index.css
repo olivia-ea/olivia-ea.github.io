@@ -112,43 +112,6 @@ ul, ol {
   text-decoration: none;
 }
 
-/*@media only screen and (min-width : 992px) {
-    .navbar {
-        height: 10rem;
-    }
-}
-*/
-
-/*****/
-/*@media only screen and (max-width: 767px)
-#nav-wrap {
-    font: 12px 'opensans-bold', sans-serif;
-    background: transparent !important;
-    letter-spacing: 1.5px;
-    width: auto;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-@media only screen and (max-width: 900px)
-#nav-wrap {
-    font: 11px 'opensans-bold', sans-serif;
-    letter-spacing: 1.5px;
-}
-
-#nav-wrap {
-    font: 12px 'opensans-bold', sans-serif;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    margin: 0 auto;
-    z-index: 100;
-    position: fixed;
-    left: 0;
-    top: 0;
-}*/
-
-/*****/
 
 .main {
   margin-top: 0px;
@@ -193,5 +156,17 @@ ul, ol {
     margin-top: 7px;
 }
 
+.raised-block {
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: -0.625rem; 
+    padding-left: 0.1rem;
+    padding-right: 0.625rem;
+}
+
+.row [class^="col-"]:first-child>.raised-block {
+    margin-left: -2.625rem;
+}
 
 
